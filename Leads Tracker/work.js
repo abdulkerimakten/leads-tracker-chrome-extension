@@ -9,6 +9,7 @@ const tabBtn = document.getElementById("tab-btn")
 const ulEl = document.getElementById("ul-el")
 
 
+// Local Storage Part
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 
 if(leadsFromLocalStorage){
